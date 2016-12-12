@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "question": "What year did Seattleites vote on their first comprehensive rapid rail transit system?",
+    "description": "Seattle would look dramatically different had the public approved Municipal Planning Director Virgil Gay Bogue’s urban design and transportation plan that was on the ballot in the spring of 1912. Bogue envisioned Seattle as a European-style metropolis of the Pacific, with a towering grand central station in what is now Belltown around Fourth Avenue and Blanchard Street. His plan also included more than a dozen rapid transit routes using a nearly 91-mile rail network – 33 miles of subway, 5.5 miles of tunnel, 27.4 miles of Chicago-style elevated rail, and 24.85 miles of surface rail – linking nearly every corner of the city, including West Seattle, South Park, Georgetown and Rainier Beach to the south, and Ballard, Greenwood and Ravenna to the north. The system, if it had been approved, was expected to be completed by 1935, a full century before Sound Transit 3’s Seattle-to-Ballard line is to run its first light-rail trains. Bogue’s proposal was called the <a href=\"https://archive.org/stream/planseattlerepo00bogugoog#page/n171/mode/2up\">“Plan of Seattle”</a> – more commonly known today as the Bogue Plan – and was rejected on March 5, 1912, by a vote of 24,966 to 14,506.",
+    "image": "TransitQuiz_01.jpg",
+    "caption": "Municipal Planning Director Virgil G. Bogue’s ambitious 1912 plan for more than 90 miles of rapid rail transit in Seattle also included a European-style Civic Center, with a Grand Central Station envisioned as an anchor for the project. This rendering shows the Civic Center, which was planned for the area around Fourth Avenue and Blanchard in Belltown. The Grand Central Station is in the center left of the image. (Seattle Public Library)"
+  },
+  {
+    "id": 2,
+    "question": "Where was the first monorail built in the region?",
+    "description": "The first monorail constructed in the Puget Sound area was not the current 1-mile system built for the 1962 World’s Fair. According to the late Puget Sound historian Murray C. Morgan, the area’s first monorail was a temporary <a href=\"http://evanced.tacomapubliclibrary.org/morgan/Print/Cook.htm\">wood-framed prototype built in 1910 on Tacoma’s tidal flats</a>. The test system was constructed by New York railroad expert and inventor William H. Boyes, who envisioned a monorail line connecting Tacoma with Seattle at a top speed of 20 mph. And in 1911, the Boyes Monorail Edmonds Co. was established to link Edmonds to Seattle with a similar monorail model. However, the Edmonds line never got off the ground due to a lack of financial backing; the Seattle-Tacoma line was mired in legal trouble in late 1911 as stockholders began asking Boyes for a rendering of his accounting related to the line, and other investors sought their money back.\n",
+    "image": "TransitQuiz_02.jpg",
+    "caption": "A temporary wood-framed monorail prototype built in 1910 on Tacoma’s tidal flats by William H. Boyes. He envisioned a monorail line connecting Tacoma with Seattle, with a top speed of 20 mph. (Library of Congress)"
+  },
+  {
+    "id": 3,
+    "question": "What powered the first rail car in Seattle?",
+    "description": "They don't call it horsepower for nothing. On Sept. 23, 1884, Frank Osgood began operating a horse-drawn trolley down Second Avenue. By year's end, Osgood&rsquo;s public rail line had three miles of track, used four cars, employed 10 men, and was powered by 20 horses. The cost for a ride? Five cents.",
+    "image": "TransitQuiz_03.jpg",
+    "caption": "Frequently called the father of public transportation in Seattle, Frank Osgood began operating a horse-drawn trolley down Second Avenue in 1884. Here, the \"busy\" Second and Pike Street in 1884. (Seattle Times archives)"
+  },
+  {
+    "id": 4,
+    "question": "At its peak, Seattle&rsquo;s streetcar system had how many miles of track?",
+    "description": "In 1936, the Seattle Municipal Street Railway system boasted 410 streetcars that used 29 routes (26 electric lines and three cable-car routes) over a network of 231 miles of rail, according to the <a href=\"http://www.seattle.gov/transportation/docs/SeattleTransitPlanSummer20051105_Reso5.pdf\">city of Seattle</a>. But during this time, the Seattle Municipal Street Railway was in dire financial trouble due in part to the growing popularity of the automobile and the impact of the Great Depression. Consequently, in 1938, the Municipal Street Railway went bankrupt, and the public organization ran its last streetcar to Fremont on April 13, 1941, according to <a href=\"http://metro.kingcounty.gov/am/history/history-1940.html\">King County Metro</a>.",
+    "image": "TransitQuiz_04.jpg",
+    "caption": "At its peak in 1936, Seattle had a network of 231 miles of rail that zigzagged nearly every corner of the city. Here, streets were clogged with automobile and street car traffic in this 1936 photo taken of Second Avenue, between Union Street and Pike Street.  (Seattle Times archives) "
+  },
+  {
+    "id": 5,
+    "question": "What was the original cost of a Metro Transit base bus fare?",
+    "description": "Metro Transit debuted on New Year’s Day 1973, with base fares at that time of 20 cents, and an additional 10 cents were tacked on for each additional zone, the <a href=\"http://metro.kingcounty.gov/am/history/history-1970.html\">bus agency reports</a>. Ridership during Metro’s inaugural year exceeded expectations, according to a Feb. 12, 1974,  story in The Seattle Times. Ridership on the urban-suburban system increased 16.9 percent in its first year, and served more than 30 million passengers.",
+    "image": "TransitQuiz_05.jpg",
+    "caption": "A Metro bus fare today costs between $2.50 and $3.25, depending on the number of zones and peak travel times.  But when Metro Transit debuted on New Year’s Day 1973, the base fare was 20 cents, with 10 cents tacked on for each additional zone. Here, Seattle Transit System buses made the change to Metro Transit buses in December 1972. (Jerry Gay / The Seattle Times)"
+  }
+]

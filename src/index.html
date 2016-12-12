@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <%= t.include("partials/_head.html") %>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='http://fonts.googleapis.com/css?family=Paytone+One:700,400,300' rel='stylesheet' type='text/css'>
+    <script src="https://use.fontawesome.com/bd870dfa49.js"></script>
+  </head>
+  <body>
+
+    <responsive-child>
+      <div class="outer">
+
+        <div class="quiz-container">
+          <div class="quiz-box"> 
+            <div class="question-box"></div>
+          </div>
+        </div>
+
+      </div>
+    </responsive-child>
+
+    <script>
+      <% 
+        var quizData = {};
+        json.Questions.forEach(function(q) {
+          quizData[q.id] = { 
+            "question": q.question,
+            "description": q.description,
+            "image": q.image,
+            "caption": q.caption
+          };
+        });
+        json.Answers.forEach(function(a, index) {
+          var id = a.id;
+          if (!quizData[id].answers) { quizData[id].answers = [] }
+          var answer = { 
+            "answer": a.answer,
+            "correct": a.correct,
+            "id": index
+          };
+          quizData[id].answers.push(answer);
+        });
+      %>
+      var quizData = <%= JSON.stringify(quizData) %>;
+      var resultsData = <%= JSON.stringify(json.Results) %>;
+      var configData = {
+        title: "<%= json.project.title %>",
+        description: "<%= json.project.description %>",
+        url: "<%= json.project.url %>"
+      }
+    </script>
+
+    <script src="app.js" async></script>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_foot.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+  </body>
+</html>

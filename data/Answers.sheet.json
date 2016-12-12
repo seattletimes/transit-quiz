@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "answer": 1912,
+    "correct": "x"
+  },
+  {
+    "id": 1,
+    "answer": 1942
+  },
+  {
+    "id": 1,
+    "answer": 1968
+  },
+  {
+    "id": 1,
+    "answer": 1996
+  },
+  {
+    "id": 2,
+    "answer": "Seattle"
+  },
+  {
+    "id": 2,
+    "answer": "Edmonds"
+  },
+  {
+    "id": 2,
+    "answer": "Bellevue"
+  },
+  {
+    "id": 2,
+    "answer": "Tacoma",
+    "correct": "x"
+  },
+  {
+    "id": 3,
+    "answer": "Coal-fired boilers"
+  },
+  {
+    "id": 3,
+    "answer": "Horses",
+    "correct": "x"
+  },
+  {
+    "id": 3,
+    "answer": "Electric-power lines"
+  },
+  {
+    "id": 3,
+    "answer": "Cable car technology"
+  },
+  {
+    "id": 4,
+    "answer": "22 miles"
+  },
+  {
+    "id": 4,
+    "answer": "98 miles"
+  },
+  {
+    "id": 4,
+    "answer": "231 miles",
+    "correct": "x"
+  },
+  {
+    "id": 4,
+    "answer": "566 miles"
+  },
+  {
+    "id": 5,
+    "answer": "5 cents"
+  },
+  {
+    "id": 5,
+    "answer": "20 cents",
+    "correct": "x"
+  },
+  {
+    "id": 5,
+    "answer": "75 cents"
+  },
+  {
+    "id": 5,
+    "answer": "1 dollar"
+  }
+]
