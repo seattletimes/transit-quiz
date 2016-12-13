@@ -1,6 +1,6 @@
 // require("./lib/social");
 // require("./lib/ads");
-// var track = require("./lib/tracking");
+var track = require("./lib/tracking");
 
 require("component-responsive-frame/child");
 
@@ -12,7 +12,7 @@ var resultTemplate = require("./_resultTemplate.html");
 var overviewTemplate = require("./_overviewTemplate.html");
 
 var score = 0;
-var id = 5;
+var id = 1;
 
 // Set up templates
 ich.addTemplate("questionTemplate", questionTemplate);
@@ -34,7 +34,7 @@ var watchInput = function() {
 };
 
 $(".quiz-container").on("click", ".submit", function() {
-  // track("interactive", "quiz", "submit-answer-" + id);
+  track("interactive", "quiz", "submit-answer-" + id);
 
   // score answer
   var answerData = {};
