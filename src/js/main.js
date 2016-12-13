@@ -12,7 +12,7 @@ var resultTemplate = require("./_resultTemplate.html");
 var overviewTemplate = require("./_overviewTemplate.html");
 
 var score = 0;
-var id = 1;
+var id = 5;
 
 // Set up templates
 ich.addTemplate("questionTemplate", questionTemplate);
@@ -63,6 +63,12 @@ $(".quiz-container").on("click", ".submit", function() {
     $(".next").html("Finish");
   }
   watchNext();
+});
+
+$(".quiz-container").on("click", ".retake", function() {
+  id = 1;
+  score = 0;
+  showQuestion(id);
 });
 
 
